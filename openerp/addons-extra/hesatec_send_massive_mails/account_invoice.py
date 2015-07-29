@@ -24,16 +24,12 @@
 ##############################################################################
 
 
-from osv import osv, fields
+from openerp.osv import fields, osv
 import time
 import dateutil
 import dateutil.parser
 from dateutil.relativedelta import relativedelta
 from datetime import datetime, date
-from tools.translate import _
-from tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FORMAT, float_compare
-import decimal_precision as dp
-import netsvc
 import openerp
 import calendar
 import tempfile
